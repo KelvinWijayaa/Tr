@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+	background-image: url(../images/LoginWall.jpg);
+	background-size: 100% 100%;
+    min-height: 680px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.tulisanlogin{
+	text-align: center;
+	color: #fff;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotaklogin{
+	width: 350px;
+	background:none;
+	/*meletakkan form ke tengah*/
+	margin: 140px auto;
+	padding: 30px 20px;
+	font: #fff;
+}
+
+.formlogin{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+	background: none;
+	color: #fff;
+}
+
+.tombollogin{
+	background:none;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+label{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+/*test git*/
